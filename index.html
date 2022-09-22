@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="cabeza">
+            <H1>MI_TIENDA</H1>
+            <p>muj>ropa>jafja</p>
+            </div>
+            <div class="buscador">
+            <input type="search" value="buscar">
+            <img class="imagen" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEUAAAD////8/PzW1tbw8PD4+Pg2NjYgICDZ2dm/v792dnavr6/j4+P09PQqKiq1tbWkpKRra2t8fHzNzc2NjY1OTk5mZmaioqJbW1tvb2+UlJRBQUHp6emDg4NhYWGJiYkODg4xMTEcHBw/Pz8dHR3IyMhSUlItLS2nwpeQAAAGt0lEQVR4nO2da3eiQAyGR25KQVHBC2q3tLt2//8/3KWuq1VQSN4E8czzvafzHGEmJDMZM9DA8eNwNV8vgmFhimGwWM9XYew7Kv/biP8HJ47yialikkexvKWwoRPmQaXdkSAPhSVFDd35Tbsjc1dyEHKG49VHI7+Sj9VYbBxSht6maOxXUmw8oZHIGI7fWukdeJP5HUUMpwS/kqnEYAQM3S1R0JitwJwDN3SazZ91zOFrB9owrl7cmzOJwSMCG0ZMv5IIOySooZ8DBI3JfeSgkIb+7QCtOQFSEWi4G4IEjRnucMPCGY5gfiUj2Lhghi5U0BjYyogyjMGCxqBWDZDhroAbFqB3EWM45q7zVUwwkTjG8KeAoDE/IWODGPJC0XrmiMEhDBMhQWMSwOgAhvhp9ARgQgUYyryEBwCvIt9wIyhozKZ7w52ooDHsVZFt+EPY8EfXhqGwoDFht4Y+7oupjiHzY5FpiMha3IOZ1WAaNk/c0/no0lAumjmHF9nwDOXfwpJhd4byE+kB1nTKMpReC4+w1kSOoXQ4c4IT2HAMqSWm9nCKUhxDeo2pLdtuDCW/Cy9hfCcyDPUeUtZjyjBcKxquOzFUFDScYZL/Ep3Gvw09yU83XKkarjow1HwNOS8i3RBVDm1GoG841vg0PPFBLmKQDbEF0fuQS6Zkw1TZMFU31IxoSshRDdkwUzbM1A1flQ1f1Q1flA1f1A1nyoYzdUOtHM0Rcq7GGtayVDZcqhtitiE2J1c3lNp/UQd5XwbZkLIbn8ObuqFs+f4ackGfbKhTdjpBLkCRDXXTNIxEDdlQr2hxgFy6oGcxJLYj1jMhj5NuqFe1KKFXLuiGugsifZsi3VCrAHyAXgamG3qqhvTTiYyCwC9FwV/0YTIMNeM2cszGMtR8ERm7MRiGvqIhY28bp46vl4wip6GYhnppb3LCm2noaJWfAs7RWdaeKK28NznfzTbU+r5g7fXm7U3USUeRk1AAQ50fkbddn7lHWCO3T87nQww1KsHMA7Pc0wjyqz5ntUcYeoWwYMHt6sI+MyNd7Wb3O+Gf7JINbOj7aHCGspMN/1w+4Pyh5AY3+nY2pKFgsZR9cG2AMRwXQoIF4rw65Cy3VA0D0jkCcx5f5ggbphUPqGuERDWRfwT4C1TnD3xqkZFA/Aasewv6U5H3UXgGrgMPNgbnxtsngF2UkA8q6hEdYDth4YIbQCjzH2g3M9SiAe3Yhu1IN0KUvie4Llgl4J57Dj9xMwN3ToR3huR+EcM7fOK7e8acXYtLdF9ImQ6tYUH0K7g9MKqQ6bJLK2iwyhO1CHVK9rK2v2ORCbVKFut27bX73BBrBS3ZsdxJFg31FolgX3bZrvPe6n6uMViJ/XxfiN8cECf5e63de57gl4cL5O9GGAz8OMpml/HcZJZFMbSdbg0ahv+I0zCJptNplISp+C93QtGwI6xh/7GG/cca9h9r2H+sYf+xhv3HGvYfa9h/rGH/sYb9xxr2H2vYf6xh/9EyHMcjN033+zAM9/s0dUex3A3A35E1HKfJNMsX70Vlba14X+TZNEllXUUMHS9ONq/r5vcKDNevmyT2RCrBaENvFGYzalOQ7SwLR+iKMNLQjfKg+nlsQxHkEfJaYIyhEydv9bVsCu9vSYx5aPmGfrySOmc5WwHq4NwTltFSttfQZBl1d8LST2Y63ZI/ZkkHXSN206bbgTAsptTzzhRDx810m0Qd2GYuZe5pb+jOdbt8nTOZt19HWhruNjoXINUz3LR8XNsYetFnx3oHPqM2cU9zw712x9Jb5Hu4YaJ7UcB9gqatIhsZttwNq0WzXbcNDF3t1t3NeWkwtd41TB9jdqnj826DpTuGI92bSCis78StNw1Zh0P0uH0M5YbhTrvdM535jSig3lC72TOP+iOZdYZp19FZW4Z1U061of+4C0Q9L9UfkZWGYd9+wAPDyoNhFYbjfsygVSwrksvXhtqXAGG5fhuvDB8zBG3OVa+JC0Pn8WOYe6ydW4be767HB+C3V2+ofdOYFKM6w37PMeek1Ybatx1I4lYZPs8vWJJeG2re7qtBfGk47i7NK8NkfGHYRZpelu13Q+27/jTIzg2fa5Y5kp4MnWd7CQ9MnP+Gz/iMlmRHQ+1rf/TY/TPs7xfvPZYHw2db68+Jvwz7kxZtz7w0FO/m3CWF99dQ+4o4XZK/htqXwuoyGxjN22K6wDfP9N1bhWtkGuQ+DpF51ojtSGZ0t6fpszCPtosETWD6WWZqztAUXQ9BmKLrAVgsFovFYrFYLBaLxWKxWCwWi8VisRz5A8CchktaKqANAAAAAElFTkSuQmCC" alt="usuario">
+            <img class="imagen" src="https://w7.pngwing.com/pngs/360/347/png-transparent-computer-icons-logo-basket-symbol-symbol-miscellaneous-angle-rectangle.png" alt="cesta">
+            </div>
+        </nav>
+        <aside class="menu">
+        <ul>
+                <li>Novedades</li>
+                <li>Ropa</li>
+                <li>PB by Rosalia</li>
+                <li>Zapatos</li>
+                <li>Accesorios</li>
+                <li>Editoriales</li>
+                <li>Join Life</li>
+                <li>Promociones</li>
+            </ul>
+        </aside>
+     
+    </header>
+    <main>
+        <div class="galeria">
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+            <div class="ropa"> <img src="https://i.pinimg.com/236x/39/3c/5d/393c5dd13abf6722e9e394f22b5a6dcc.jpg" alt="ropa">
+            <p class="texto">Chaqueta mujer</p> <p class="texto"> 15€</p>
+            </div>
+        </div>
+        <div class="desc">
+            <h2>10% DE DESCUENTO...</h2>
+        </div>
+         <div< class="desc">
+            <h2>SUSCRIBETE A LA NEWSLETTER!</h2>
+        <div>
+        </div>
+     </main>
+    
+    <footer>
+        <div class="texto2">
+        <div>
+            <h5>Cosas</h5>
+            <ul>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            </ul>
+        </div>
+        <div>
+            <h5>Cosas</h5>
+            <ul>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            </ul>
+        </div>
+        <div>
+            <h5>Cosas</h5>
+            <ul>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            </ul>
+        </div>
+        <div>
+            <h5>Cosas</h5>
+            <ul>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            </ul>
+        </div>
+        <div>
+            <h5>Cosas</h5>
+            <ul>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            </ul>
+        </div>
+        <div>
+            <h5>Cosas</h5>
+            <ul>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            <li>jdañfjd</li>
+            </ul>
+        </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

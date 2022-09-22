@@ -1,0 +1,43 @@
+.cabeza{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.buscador{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.menu{
+    position: fixed;
+}
+
+.imagen{
+    width: 30px;
+    height: 30px;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.texto{
+    text-align: center;
+}
+
+.ropa{
+    margin: 50px;
+    width: 700;
+    height: 500;
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+}
+.texto2{
+    display: flex;
+    justify-content: space-around;
+}
